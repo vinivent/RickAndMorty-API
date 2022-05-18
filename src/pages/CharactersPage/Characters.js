@@ -34,7 +34,7 @@ export const CharactersPage = () => {
   return (
     <div className="container">
       <img className="logo" src={RickAndMortyLogo} alt="Rick and Morty" />
-      <Button text="Página inicial" icon={IoMdArrowRoundBack} route="/" />
+      <Button text="Home page" icon={IoMdArrowRoundBack} route="/" />
       <div className="btn_pages">
         <button
           onClick={() => setCount(count - 1)}

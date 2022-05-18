@@ -8,7 +8,7 @@ export const HomePage = () => {
     <div className="container">
       <img className="logo_rm" src={RickAndMorty} alt="Rick and Morty" />
       <h1 className="title_welcome">Welcome to Rick and Morty Universe!</h1>
-      <Button text="Ver personagens" route="/characters" />
+      <Button text="See characters" route="/characters" />
     </div>
   );
 };
